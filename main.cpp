@@ -51,7 +51,7 @@ int main() {
 	int square = 0;
         //Open a file to log the number of points within the circle and square. 
 	std::ofstream outputFile("data.csv");
-	outputFile << "Circle,square," << std::endl;
+	outputFile << "ITERATION,Estimate Pi" << std::endl;
 
 	// Seed the random number generator with the current time for better randomness.
 	srand(time(0));
@@ -67,7 +67,7 @@ int main() {
 		if (insideSquare(x, y)) {
 			square += 1;
 		}
-		outputFile << i + 1 << ',' << circle << ',' << square << ',' << std::endl;
+		outputFile << i + 1 << ',' static_cast<double>(circle) / static_cast<double>(square) << std::endl;
 	}
 	std::cout << std::endl << "Monte Carlo simulation complete!" << std::endl;
 	
