@@ -24,7 +24,7 @@ $$P(S) = \frac{\text{Area of Square}}{\text{Total area of the region}}= \frac{r^
 
 The ratio of the probabilities can also be written as:
 
-$$\frac{P(C)}{P(S)} = \frac{((πr^2) / A)}{ (r^2 / A)} = \frac{(πr^2)}{(r^2)} = π$$
+$$\frac{P(C)}{P(S)} = \frac{πr^2/A}{r^2/A} = \frac{πr^2}{r^2} = π$$
 
 Therefore, with more iterations, the value of Pi can be estimated:
 
