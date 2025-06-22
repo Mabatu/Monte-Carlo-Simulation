@@ -1,0 +1,1 @@
+This folder contains raw data in CSV format of actual Pi estimations. Files are named based on the number of iterations performed.
