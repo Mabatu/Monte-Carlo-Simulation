@@ -1,0 +1,1 @@
+On Pi Day 2017, Matt Parker made a video demonstrating how a thousand random numbers could be used to estimate the value of Pi. In the video, he used two dice that he rolled repeatedly. After each roll, he compared the two numbers obtained. The possible outcomes could be categorized as either coprime numbers or not.
